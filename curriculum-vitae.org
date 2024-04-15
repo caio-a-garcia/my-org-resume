@@ -1,4 +1,4 @@
-* Config/Preamble :noexport:
+* Config/Preamble                                                  :noexport:
 ** LaTeX Config
 #+BEGIN_SRC emacs-lisp :exports none  :results none :eval always
 (setq org-latex-logfiles-extensions (quote ("lof" "lot" "tex~" "aux" "idx" "log" "out" "toc" "nav" "snm" "vrb" "dvi" "fdb_latexmk" "blg" "brf" "fls" "entoc" "ps" "spl" "bbl" "xmpi" "run.xml" "bcf")))
@@ -60,7 +60,7 @@
 #+LATEX_HEADER: \usepackage[style=trad-abbrv,sorting=none,sortcites=true,doi=false,url=false,giveninits=true,hyperref]{biblatex}
 
 ** Exporter Settings
-#+AUTHOR: Aidan Scannell
+#+AUTHOR: Caio Garcia
 #+EXPORT_FILE_NAME: ./curriculum-vitae.pdf
 #+OPTIONS: toc:nil title:nil H:1
 ** Macros
@@ -73,22 +73,21 @@
 * CV Header :ignore:
 ** Photo & Tagline :ignore:
 #+begin_export latex
-\name{Aidan Scannell}
-\photoR{2.8cm}{aidan_portrait.jpeg}
-\tagline{PhD Researcher}
+\name{Caio Garcia}
+\photoR{2.8cm}{Perfil2023.jpeg}
+\tagline{Cientista de Dados}
 #+end_export
 
 ** Personal Info :ignore:
 #+begin_export latex
 \personalinfo{
-  \homepage{www.aidanscannell.com}
-  \email{scannell.aidan@gmail.com}
-  \phone{+44 787 558 3912}
-  \location{Bristol, UK}
-  \github{aidanscannell}
-  \linkedin{aidan-scannell-82522789/}
-  \dob{22 April 1994}
-  \driving{UK Driving Licence}
+  \homepage{caio-a-garcia.github.io}
+  \email{caioag3@al.insper.edu.br}
+  \phone{+55 34 99673 8500}
+  \location{São Paulo, Brasil}
+  \github{caio-a-garcia}
+  \linkedin{kaioviski/}
+  \dob{18 Dezembro 1996}
 }
 \makecvheader
 #+end_export
@@ -97,13 +96,7 @@
 #+begin_export latex
 \begin{paracol}{2}
 #+end_export
-** Personal Statement Secondmind :ignore:noexport:
-#+begin_export latex
- \begin{quote}
- ``I am an aspiring researcher with interests at the intersection of probabilistic machine learning and control theory. I am particularly interested in uncertainty quantification and as a result, a great deal of my work focuses on Bayesian non-parametric methods, specifically Gaussian processes and variational inference.''
- \end{quote}
-#+end_export
-** Personal Statement Amazon :ignore:
+** Personal Statement :ignore:
 #+begin_export latex
  \begin{quote}
  ``I am a PhD researcher with interests at the intersection of probabilistic machine learning and control theory. A great deal of my work focuses on Bayesian non-parametric methods, specifically Gaussian processes, variational inference and decision-making under uncertainty.''
