@@ -1,0 +1,17 @@
+(specifications->manifest
+ '("texlive-pdfx"
+   "texlive-xmpincl"
+   "texlive-fontawesome5"
+   "texlive-tcolorbox"
+   "texlive-environ"
+   "texlive-tikzfill"
+   "texlive-enumitem"
+   "texlive-dashrule"
+   "texlive-ifmtarg"
+   "texlive-multirow"
+   "texlive-changepage"
+   "texlive-biblatex"
+   "texlive-roboto"
+   "texlive-fontaxes"
+   "texlive-lato"
+   "texlive-paracol"))
