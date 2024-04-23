@@ -1,4 +1,4 @@
-* Config/Preamble                                                  :noexport:
+* Config/Preamble :noexport:
 ** LaTeX Config
 #+BEGIN_SRC emacs-lisp :exports none  :results none :eval always
 (setq org-latex-logfiles-extensions (quote ("lof" "lot" "tex~" "aux" "idx" "log" "out" "toc" "nav" "snm" "vrb" "dvi" "fdb_latexmk" "blg" "brf" "fls" "entoc" "ps" "spl" "bbl" "xmpi" "run.xml" "bcf")))
@@ -86,7 +86,9 @@
   \phone{+55 34 99673 8500}
   \location{São Paulo, Brasil}
   \github{caio-a-garcia}
+  \hspace{1.05cm}
   \linkedin{kaioviski/}
+  \hspace{1.8cm}
   \dob{18 Dezembro 1996}
 }
 \makecvheader
@@ -99,73 +101,38 @@
 ** Personal Statement :ignore:
 #+begin_export latex
  \begin{quote}
- ``I am a PhD researcher with interests at the intersection of probabilistic machine learning and control theory. A great deal of my work focuses on Bayesian non-parametric methods, specifically Gaussian processes, variational inference and decision-making under uncertainty.''
+ ``Sou um Cientista de Dados com formação em Matemática e experiência profissional em desenvolvimento web.''
  \end{quote}
 #+end_export
-** Experience
-*** PhD Researcher :ignore:
-{{{cvevent(PhD Researcher, University of Bristol,Sept 2018 -- Ongoing, Bristol\, UK)}}}
+** Experiência
+*** Sapiens :ignore:
+{{{cvevent(Desenvolvedor No-Code, Sapiens Agro, Nov 2023 -- Mar 2024, Uberlândia\, MG\, Brasil)}}}
 
-# Researching methods for probabilistic inference and control in multimodal dynamical systems. EPSRC Centre for Doctoral Training in Future Autonomous and Robotic Systems (FARSCOPE).
-Researching methods for data-efficient learning and control in multimodal dynamical systems. EPSRC Centre for Doctoral Training in Future Autonomous and Robotic Systems (FARSCOPE).
+Utilizando a tecnologia no-code Bubble, desenvolvi uma plataforma ao redor de um serviço de previsão de custo de frete de commodities. Gerei visualizações interativas a partir das saídas do modelo de previsão (via API) assim como de dados de uso da plataforma.
 
-{{{cvtag(Probabilistic modelling)}}}
-{{{cvtag(Gaussian processes)}}}
-{{{cvtag(Variational inference)}}}
-{{{cvtag(Optimal control)}}}
-{{{cvtag(Trajectory optimisation)}}}
-# {{{cvtag(Model-based reinforcement learning)}}}
+{{{cvtag(Data Viz)}}}
+{{{cvtag(Web Dev)}}}
+{{{cvtag(No-Code)}}}
+{{{cvtag(Bubble)}}}
 
-*** Teaching Assistant :ignore:
+*** Kyros - Clojure :ignore:
 {{{par-div}}}
-{{{cvevent(Teaching Assistant, University of Bristol,Sept 2018 -- Ongoing, Bristol\, UK)}}}
+{{{cvevent(Desenvolvedor Fullstack, Kyros Tecnologia, Ago 2022 -- Abr 2023, Uberlândia\, MG\, Brasil)}}}
 
-Alongside my PhD I have assisted teaching:
-- [[https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa?ayrCode=19%2F20&unitCode=COMS30007][Machine Learning COMS30007]]
-  # This course introduced student to probabilistic machine learning: bayesian linear regression, Gaussian processes, probabilistic PCA, Bayesian optimisation.
-- [[https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa?ayrCode=19%2F20&unitCode=COMSM0012][Robotic Systems COMSM0012]]
-  # This course introduced student to probabilistic robotics, e.g. particle filtering.
-- [[https://www.bris.ac.uk/unit-programme-catalogue/UnitDetails.jsa?ayrCode=19/20\&unitCode=EMATM0042][Intelligent Information Systems EMATM0042]]
+Trabalhei em uma aplicação Clojure full stack, tomando conta de tickets de suporte com meu time e pessoalmente puxando as principais demandas de novas features para o front.
 
-{{{cvtag(Communication)}}}
-{{{cvtag(Active listening)}}}
-{{{cvtag(Teaching)}}}
+{{{cvtag(GraphQL)}}}
+{{{cvtag(Clojure)}}}
 
-*** Mott MacDonald :ignore:noexport:
+*** Kyros - Processos :ignore:
 {{{par-div}}}
+{{{cvevent(Analista de Processos, Kyros Tecnologia, Set 2021 -- Ago 2022, Uberlândia\, MG\, Brasil)}}}
 
-{{{cvevent(Mechanical Engineer Intern,Mott MacDonald,June 2015 -- August 2015, London\, UK)}}}
+Liderei um time multi-disciplinar na ideação e desenvolvimento de um projeto experimental em Realidade Virtual.
 
-# I worked as a mechanical engineer within the building services division where I developed my
-# teamwork skills and learned the importance of knowledge management.
-# I was in charge of optimising the heating, ventilation and air-conditioning of a building a
-# Hackney Wick underground station.
-# I met with external architects to communicate our ideas and I personally overcame logistical issues
-# and improved a systems efficiency, resulting in the designs approval.
-# I consistently met deadlines whilst working under pressure and was offered future employment.
-# This internship strengthened my desire to move away from engineering and pursue a research driven
-# career involving mathematics and programming.
-
-- Developed teamwork skills, learning the importance of knowledge management within a team.
-- Overcame logistical issues and improved a system’s efficiency, resulting in the design’s approval.
-- Consistently met deadlines whilst working under pressure.
-- Conducted a feasibility study and estimated project costs that informed subsequent action.
-- Located an error and proposed a solution. Communicating this to relevant managers resulted in its successful implementation.
-- Mott MacDonald offered me future employment following my summer placement.
-  
-{{{cvtag(Engineering)}}}
-{{{cvtag(Teamwork)}}}
-{{{cvtag(Industry)}}}
-
-** Publications
-#+begin_export latex
-\nocite{*}
-% \printbibliography[heading=pubtype,title={\printinfo{\faBook}{Books}},type=book]
-% \divider
-% \printbibliography[heading=pubtype,title={\printinfo{\faFile*[regular]}{Journal Articles}},type=article]
-% \divider
-\printbibliography[heading=pubtype,title={\printinfo{\faUsers}{Conference Proceedings}},type=inproceedings]
-#+end_export
+{{{cvtag(Unreal Engine)}}}
+{{{cvtag(Processos)}}}
+\break
 
 ** Projects
 *** Active Learning Secondmind :ignore:noexport:
@@ -212,7 +179,6 @@ Alongside my PhD I have assisted teaching:
 {{{cvtag(JAX)}}}
 {{{cvtag(Probabilistic geometries)}}}
 {{{cvtag(Optimal control)}}}
-
 
 *** SVGP :ignore:
 {{{par-div}}}
@@ -340,13 +306,9 @@ Each year, as part of Formula Student, students design, build and race a single 
 
 ** Skills
 {{{cvtag(Python)}}}
-{{{cvtag(TensorFlow)}}}
-{{{cvtag(GPflow)}}}
-{{{cvtag(JAX)}}}
 {{{cvtag(NumPy)}}}
 {{{cvtag(SciPy)}}}
 {{{cvtag(Matplotlib)}}}
-{{{cvtag(GPy)}}}
 
 {{{divider}}}
 
@@ -361,35 +323,15 @@ Each year, as part of Formula Student, students design, build and race a single 
 {{{cvtag(Git/GitHub)}}}
 {{{cvtag(LaTeX)}}}
 {{{cvtag(Org-mode)}}}
+\break
 
-** Education
-{{{cvevent(PhD\ in Bayesian Machine Learning for Robotic Control, University of Bristol, Sept 2018 - Ongoing,)}}}
+** Educação
+{{{cvevent(Programa Avançado em Data Science e Tomada de Decisão, Insper, Jul 2023 - Ongoing,)}}}
 - \faBook Probabilistic Inference for Learning and Control in Multimodal Dynamical Systems
 
 {{{divider}}}
 
-{{{cvevent(Gaussian Process and Uncertainty Quantification Summer School (GPSS), University of Sheffield, Sept 2019 - Sept 2019,)}}}
-
-{{{divider}}}
-
-{{{cvevent(Machine Learning Summer School Moscow (MLSS), Skoltech, Aug 2019 - Sept 2019,)}}}
-
-{{{divider}}}
-
-# {{{cvevent(M.Res.\ in Robotics \& Autonomous Systems, University of Bristol | First Class Honours, Sept 2017 -- Sept 2018,)}}}
-# {{{cvevent(a \footnote{Not official - will be awarded if Ph.D. is not completed.} M.Res.\ in Robotics \& Autonomous Systems,University of Bristol,Sept 2017 -- Sept 2018,)}}}
-#+BEGIN_EXPORT latex
-\cvevent{\footnote{Awarded if PhD is not completed.} MRes in Robotics \& Autonomous Systems}{University of Bristol | First Class Honours}{Sept 2017 -- Sept 2018}{}
-#+END_EXPORT
-# - First Class Honours
-- \faBook [[https://www.aidanscannell.com/project/uncertain-agentspeak/][Extending BDI Agents to Model and Reason with Uncertainty]]
-
-
-{{{divider}}}
-
-{{{cvevent(MEng in Mechanical Engineering, University of Bristol | First Class Honours, Sept 2012 -- June 2016,)}}}
-# - First Class Honours \\
-- Graduated in top 10% of cohort
+{{{cvevent(Bacharelado em Matemática e Filosofia, Fordham University, Set 2015 - Mai 2019,)}}}
 
 ** Newpage :ignore:
 #+BEGIN_EXPORT latex
@@ -402,21 +344,6 @@ Each year, as part of Formula Student, students design, build and race a single 
 % ``Something smart or heartfelt, preferably in one sentence.''
 % \end{quote}
 #+end_export
-
-# ** Most Proud Of :ignore:
-# #+begin_export latex
-# \cvsection{Most Proud of}
-# #+end_export
-
-# #+begin_export latex
-# \cvachievement{\faTrophy}{Code Club Leader}{Collaborated with Code Club and Bristol Libraries to set up and run a Code Club for 9-13 year olds.}
-# #+end_export
-
-# #+begin_export latex
-# \divider
-
-# \cvachievement{\faHeartbeat}{British University Snowboard Slalom Champion}{Won all national British university slalom competitions in 2017-2018.}
-# #+end_export
 
 ** Achievements 
 {{{cvachievement(\faTrophy, Full Sporting Colours, Awarded full colours for outstanding achievements in snowboarding. Multiple gold medals in British University Snowboard Championships.)}}}
@@ -455,7 +382,7 @@ Each year, as part of Formula Student, students design, build and race a single 
 % \medskip
 #+end_export
 
-\newpage
+# \newpage
 ** References
 #+begin_export latex
 % \cvref{name}{email}{mailing address}
@@ -471,6 +398,3 @@ Each year, as part of Formula Student, students design, build and race a single 
 \end{paracol}
 \end{document}
 #+end_export
-
-
-
