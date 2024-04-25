@@ -134,6 +134,16 @@ Liderei um time multi-disciplinar na ideação e desenvolvimento de um projeto e
 {{{cvtag(Processos)}}}
 # \break
 
+*** LuizaLabs :ignore:
+{{{par-div}}}
+{{{cvevent(Estagiário Summer Camp, LuizaLabs, Jan 2020 -- Fev 2020,  Franca\, SP\, Brasil)}}}
+
+Participei da ideação e manutencção do escopo de dois projetos no laboratório de inovacção do Magalu.
+
+{{{cvtag(Agile)}}}
+{{{cvtag(Scrum)}}}
+\break
+
 *** Huawei :ignore:
 {{{par-div}}}
 {{{cvevent(Estagiário Linguista, Huawei, Jul 2019 -- Set 2019,  Shanghai\, China)}}}
@@ -141,16 +151,6 @@ Liderei um time multi-disciplinar na ideação e desenvolvimento de um projeto e
 Conferi a qualidade de traduções do Inglês para o Português do SO mobile e serviços de nuvem da Huawei, tendo a oportunidade de me familiarizar com esses produtos.
 
 # \break
-
-*** LuizaLabs :ignore:
-{{{par-div}}}
-{{{cvevent(Estagiário Summer Camp, LuizaLabs, Jul 2019 -- Set 2019,  Shanghai\, China)}}}
-
-Conferi a qualidade de traduções do Inglês para o Português do serviço operacional mobile e serviços de nuvem da Huawei, tendo a oportunidade de me familiarizar com esses produtos.
-
-{{{cvtag(Agile)}}}
-{{{cvtag(Scrum)}}}
-\break
 
 * CV Column 2 :ignore:
 # Switch to the right column - will automatically move to the next page.
