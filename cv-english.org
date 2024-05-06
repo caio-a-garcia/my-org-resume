@@ -61,7 +61,7 @@
 
 ** Exporter Settings
 #+AUTHOR: Caio Garcia
-#+EXPORT_FILE_NAME: ./curriculum-vitae.pdf
+#+EXPORT_FILE_NAME: ./cv-english.pdf
 #+OPTIONS: toc:nil title:nil H:1
 ** Macros
 #+MACRO: cvevent \cvevent{$1}{$2}{$3}{$4}
